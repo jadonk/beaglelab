@@ -1,7 +1,7 @@
 #summary to do list
 #labels Phase-Requirements
 
-= Details =
+==== Details ====
 high level module tree
 
   * Design hardware interfaces so that the data can be captured in well-known format using wel-known protocol.
