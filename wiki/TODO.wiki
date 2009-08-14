@@ -4,7 +4,7 @@
 ==== Details ====
 high level module tree
 
-  * Design hardware interfaces so that the data can be captured in wel-known format using wel-known protocol.
+  * Design hardware interfaces so that the data can be captured in well-known format using well-known protocol.
   * GPIO Driver
   * virtual Driver layer comprising RS232, SPI, I2C etc...
   * every interface is accessed using unique technique.
