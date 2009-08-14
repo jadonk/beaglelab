@@ -2,12 +2,11 @@
 #labels Phase-Requirements
 
 ==== Details ====
-high level module tree
+High level design plan
 
-  * Design hardware interfaces so that the data can be captured in well-known format using well-known protocol.
-  * GPIO Driver
-  * virtual Driver layer comprising RS232, SPI, I2C etc...
-  * every interface is accessed using unique technique.
-  * GNOME Widgets for showing the values from interfaces, and plotting graphs
-  * Widgets will have controls to save the captured data from interfaces and storing on file system or remote server.
-  * tiny HTTP server publishes web pages for remote monitoring
+  * Design hardware interfaces to capture data in standard format using standard protocols
+  * GPIO Drivers on which other virtual drivers can be implemented (like RS232, SPI, I2C etc...)
+  * Every hardware interface should be accessible using a uniform technique
+  * GNOME Widgets for visualizing the data captured and plotting graphs
+  * Widgets will have controls to save the captured data on file system or remote server.
+  * Tiny HTTP server publishes web pages for remote monitoring
