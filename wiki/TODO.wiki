@@ -1,0 +1,13 @@
+#summary to do list
+#labels Phase-Requirements
+
+= Details =
+high level module tree
+
+  * Design hardware interfaces so that the data can be captured in well-known format using wel-known protocol.
+  * GPIO Driver
+  * virtual Driver layer comprising RS232, SPI, I2C etc...
+  * every interface is accessed using unique technique.
+  * GNOME Widgets for showing the values from interfaces, and plotting graphs
+  * Widgets will have controls to save the captured data from interfaces and storing on file system or remote server.
+  * tiny HTTP server publishes web pages for remote monitoring
