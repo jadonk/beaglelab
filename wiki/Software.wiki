@@ -1,0 +1,7 @@
+#summary list of software components
+
+==== List ====
+
+  * Dev board -> RS232 interface->*RS232 Driver-> GNOME Widgit*->BeagleLAB
+  * Dev board -> RS232 interface->*SPI Driver-> GNOME Widgit*->BeagleLAB
+  * Dev board -> RS232 interface->*I2C Driver-> GNOME Widgit*->BeagleLAB
