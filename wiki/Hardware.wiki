@@ -1,0 +1,7 @@
+#summary list of interface hardware
+
+==== List ====
+  * Dev board -> *RS232 ->GPIO*->BeagleLAB
+  * Dev board -> *SPI ->GPIO*->BeagleLAB
+  * Dev board -> *I2C ->GPIO*->BeagleLAB
+  * Dev board -> *sample at 8Mhz ->GPIO*->BeagleLAB
