@@ -1,8 +1,5 @@
-#summary to do list
+#summary High level design plan
 #labels Phase-Requirements
-
-==== Details ====
-High level design plan
 
   * Design hardware interfaces to capture data in standard format using standard protocols
   * GPIO Drivers on which other virtual drivers can be implemented (like RS232, SPI, I2C etc...)
